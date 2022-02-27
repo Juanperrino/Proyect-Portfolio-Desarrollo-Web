@@ -63,6 +63,25 @@ aside li a {
     padding: 5px;
 }
 
+/*Navbar con Boostrap*/
+
+.container-fluid a.navbar-brand{
+    margin-right: 5rem;
+    font-family: 'Benne', serif;
+    font-size: 40px;
+}
+
+#navbarSupportedContent ul li a{
+    font-size: 17px;
+    font-family: 'Benne', serif;
+    
+}
+
+
+
+/*Fin navbar con Boostrap*/
+
+
 .contenedor__1{
     /* background: #515151; */
     width: 90%;
@@ -80,8 +99,11 @@ aside li a {
 .headerCompleto {
     padding: 15px;
     border-bottom: 1px solid #e7e7e7;
+    display: flex;/*para nav boostrap*/
+    
 
 }
+
 
 #social{
     display: inline-block;
