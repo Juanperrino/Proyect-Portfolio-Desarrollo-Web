@@ -1,0 +1,72 @@
+/*CONTACT PAGE*/
+
+.contenido_total {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.texto_principal {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Benne', serif;
+
+    h2 {
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.fomulario_contacto {
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 250px;
+}
+
+input, textarea {
+    margin-bottom:20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border:none;
+    background-color:#f2f2f2;
+    font-family: 'Benne', serif;
+    font-size: 15px;
+}
+
+input:focus {
+    border: 1px solid #000000;
+}
+
+input[type="submit"] {
+    margin-bottom:0;
+    background:#ffff;
+    color: #000000;
+    width: 100px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+/*End CONTACT PAGE*/

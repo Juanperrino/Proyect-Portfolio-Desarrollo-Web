@@ -1,0 +1,168 @@
+/*HEADER*/
+
+header {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+aside {
+
+    a{ padding: 5px;}
+    
+}
+
+/*Navbar con Boostrap*/
+
+.bg-light{
+    background-color: $WhiteColor !important;
+}
+
+.container-fluid a.navbar-brand{
+    font-family: 'Benne', serif;
+    font-size: 40px;
+}
+
+#navbarSupportedContent ul li a{
+    font-size: 17px;
+    font-family: 'Benne', serif;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: $e7;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+#navbarSupportedContent{
+    flex-grow: 0.3;
+}
+
+/*Fin navbar con Boostrap*/
+
+.contenedor { 
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenedor__1{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 150px;
+    background-image: url(https://www.1zoom.me/big2/42/194904-Soverein.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.headerCompleto {
+    border-bottom: 1px solid $e7;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+}
+
+#social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social_negros{
+    
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-right: 20px;
+
+        li{
+        display: inline-block;
+        }
+}
+
+.menu__responsive{
+    display: none;
+}
+
+/*End HEADER*/
+
+/*MENU PRINCIPAL*/
+
+.wrap_primario {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    border-right: 1px solid $e7;
+    border-left: 1px solid $e7;
+    padding: 10px;
+}
+
+.main2{
+    height: 100%;
+    width: 100%;
+    max-width: 755px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.menuPrincipal{
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    li{
+        padding-bottom: 15px;
+    }
+
+        a{
+        font-family: 'Benne', serif;
+        color: $BlackColor;
+        font-size: 15px;
+        }
+}
+
+.menuPrincipal__2{
+    list-style: none;
+    text-align: justify;
+    padding-left: 0;
+}
+
+.nombre_apellido_certificado{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    h2{
+        font-family: 'Benne', serif;
+        color: $BlackColor;
+        font-size: 30px;
+        font-style: bold;
+        text-align: center;
+    }
+
+    i{
+        font-family: 'Benne', serif;
+        color: $a7;
+        font-size: 14px;
+    }
+}
+
+.name__menu{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+}
+
+/*End MENU PRINCIPAL*/
+

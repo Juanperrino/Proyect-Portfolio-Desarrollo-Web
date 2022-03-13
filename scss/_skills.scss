@@ -1,0 +1,131 @@
+/*Skills Bars*/
+
+.container200 {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+
+    .skill {
+        margin-bottom: 35px;
+        position: relative;
+        overflow-x: hidden;
+    }
+}
+
+.container200 .skill::before {
+    content: "";
+    width: 100%;
+    height: 10px;
+    display: block;
+    position: absolute;
+    background-color: #e6e6e6;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.container200 .skill .skill-bar:hover::before {
+    height: 100%;
+}
+
+.container200 .skill p {
+    font-size: 18px;
+    color: #1a1716;
+    margin: 0;
+}
+
+.container200 .skill .skill-bar {
+    width: 100%;
+    height: 10px;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    animation: animated 5s both;
+}
+
+.container200 .skill .skill-bar.skill1 {
+background-image: linear-gradient(109.6deg, rgb(248, 218, 152) 11.3%, rgb(250, 133, 0) 100.2%);
+    width: 95%;
+}
+
+.container200 .skill .skill-bar.skill2 {
+    background-image: linear-gradient(109.6deg, rgb(162, 189, 240) 11.3%, rgb(0, 3, 153) 100.2%);
+    width: 90%;
+}
+
+.container200 .skill .skill-bar.skill3 {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(255, 246, 161) 0%, rgb(255, 251, 0) 90%);
+    width: 25%;
+}
+
+.container200 .skill .skill-bar.skill4 {
+    background-image: linear-gradient(109.6deg, rgba(218, 185, 252, 1) 11.2%, rgba(125, 89, 252, 1) 91.1%);
+    width: 80%;
+}
+
+.container200 .skill .skill-bar.skill5 {
+    background: linear-gradient(25deg, #f8ba69, #E74B27 50%);
+    width: 75%;
+}
+
+.container200 .skill .skill-bar.skill6 {
+background: linear-gradient(25deg, #fab1f0, #4d008b 50%);
+width: 70%;
+}
+
+.container200 .skill .skill-bar.skill7 {
+background: linear-gradient(25deg, #4586B9, #FFE634 90%);
+width: 40%;
+}
+
+.container200 .skill .skill-bar.skill8 {
+background: linear-gradient(25deg, #26C7FE, #092028 50%);
+width: 50%;
+}
+
+.container200 .skill .skill-bar.skill9 {
+background: linear-gradient(25deg, #FF7C00, #261300 50%);
+width: 60%;
+}
+
+.container200 .skill .skill-bar.skill10 {
+background: linear-gradient(25deg, #C78AF2, #1D003D 50%);
+width: 45%;
+}
+
+.container200 .skill .skill-bar span {
+    position: absolute;
+    top: -30px;
+    padding: 3px 0;
+    font-size: 18px;
+}
+
+.skill-count{
+    color: #1a1716;
+}
+
+.container200 .skill .skill-bar.skill1 span.skill-count,
+.container200 .skill .skill-bar.skill2 span.skill-count,
+.container200 .skill .skill-bar.skill3 span.skill-count,
+.container200 .skill .skill-bar.skill4 span.skill-count,
+.container200 .skill .skill-bar.skill5 span.skill-count,
+.container200 .skill .skill-bar.skill6 span.skill-count,
+.container200 .skill .skill-bar.skill7 span.skill-count,
+.container200 .skill .skill-bar.skill8 span.skill-count,
+.container200 .skill .skill-bar.skill9 span.skill-count,
+.container200 .skill .skill-bar.skill10 span.skill-count {
+    right: 0;
+}
+
+@keyframes animated {
+    from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: matrix3d(0, 0, 0);
+    }
+}
+
+/*End Skills Bars*/

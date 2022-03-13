@@ -1,0 +1,57 @@
+Modificaciones para posicionamiento SEO
+
+
+index
+
+    *meta description
+    *title
+    *
+    *
+    *
+    *
+    *
+
+
+Works
+
+    *meta description
+    *title
+    *navmap
+    *
+    *
+    *
+    *
+
+
+
+Skills
+
+    *meta description
+    *title
+    *navmap
+    *
+    *
+    *
+    *
+
+
+About
+
+    *meta description
+    *title
+    *navmap
+    *
+    *
+    *
+    *
+
+
+Contact
+
+    *meta description
+    *title
+    *navmap
+    *
+    *
+    *
+    *    

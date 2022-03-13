@@ -1,0 +1,19 @@
+{
+  "name": "idea---perrino",
+  "version": "1.0.0",
+  "description": "Este es mi proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "perrino": "sass style.scss style.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanperrino/Idea-Perrino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanperrino/Idea-Perrino/issues"
+  },
+  "homepage": "https://github.com/Juanperrino/Idea-Perrino#readme"
+}
