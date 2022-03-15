@@ -39,10 +39,11 @@
     }
 
     p{
-        color: #000000;
-        padding: 20px;
+        // color: #000000;
+        // padding: 20px;
         justify-self: center;
         border-bottom: 1px solid #e7e7e7;
+        @include dot(20px, '');
     }
 }
 
@@ -79,9 +80,10 @@
     }
 
     p{
-        color: #000000;
+        // color: #000000;
         padding: 20px;
         align-self: center;
+        @include dot(20px, 'yes')
     }
 }
 

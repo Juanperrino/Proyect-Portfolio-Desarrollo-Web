@@ -55,3 +55,27 @@ Contact
     *
     *
     *    
+
+
+    Aplicacion extend
+
+    _global.scss > .page-footer
+
+
+
+    Aplicacion mixin
+
+    creado en _global.scss
+    aplicado en _about.scss .texto__1 > p
+
+
+
+    Aplicacion map
+
+    creado en _global.scss > $mapSocial
+
+
+    Aplicacion map-get
+
+    creado en _global.scss > $style
+    aplicado en _global.scss > .down__footer
