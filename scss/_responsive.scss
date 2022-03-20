@@ -78,6 +78,24 @@
     .cuadro_img1{
         width: 100%;
     }
+
+    .primer_imagen{
+        grid-column: 1 / -1;
+    }
+
+    .texto__2{
+        grid-column: 1 / -1;
+        grid-row-start: 4;
+    }
+
+    .texto__1{
+        grid-column: 1 / -1;
+    }
+
+    .segunda_imagen{
+        grid-column: 1 / -1;
+        grid-row-start: 3;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -105,28 +123,6 @@
 
     .menu__responsive{
         padding: 40px 0px 0px 0px;
-    }
-
-    .about__me {
-        grid-template-rows: repeat(4, 1fr);
-    }
-    
-    .primer_imagen{
-        grid-column: 1 / -1;
-    }
-
-    .texto__2{
-        grid-column: 1 / -1;
-        grid-row-start: 4;
-    }
-
-    .texto__1{
-        grid-column: 1 / -1;
-    }
-
-    .segunda_imagen{
-        grid-column: 1 / -1;
-        grid-row-start: 3;
     }
 
     .main2{
@@ -218,6 +214,7 @@
     .nombre_apellido_certificado{
         padding-bottom: 5px;
     }
+
 }
 
 /*End Responsive*/

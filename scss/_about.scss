@@ -5,7 +5,7 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
 }
 
 .primer_imagen{
@@ -39,10 +39,10 @@
     }
 
     p{
-        // color: #000000;
-        // padding: 20px;
+        
         justify-self: center;
         border-bottom: 1px solid #e7e7e7;
+        margin: 0;
         @include dot(20px, '');
     }
 }
@@ -80,10 +80,11 @@
     }
 
     p{
-        // color: #000000;
         padding: 20px;
         align-self: center;
+        margin: 0;
         @include dot(20px, 'yes')
+        
     }
 }
 

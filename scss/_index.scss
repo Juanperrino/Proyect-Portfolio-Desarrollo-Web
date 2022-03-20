@@ -53,7 +53,7 @@ aside {
     margin: auto;
     overflow: hidden;
     margin-top: 150px;
-    background-image: url(https://www.1zoom.me/big2/42/194904-Soverein.jpg);
+    background-image: url(https://i.imgur.com/aUHuZnf.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -125,7 +125,7 @@ aside {
 
         a{
         font-family: 'Benne', serif;
-        color: $BlackColor;
+        color: #444444;
         font-size: 15px;
         }
 }
@@ -146,15 +146,16 @@ aside {
     h2{
         font-family: 'Benne', serif;
         color: $BlackColor;
-        font-size: 30px;
+        font-size: 40px;
         font-style: bold;
         text-align: center;
     }
 
-    i{
+    p {
         font-family: 'Benne', serif;
         color: $a7;
         font-size: 14px;
+        text-align: center;
     }
 }
 
@@ -162,6 +163,10 @@ aside {
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 2;
+}
+
+.flex-wrap{
+    border-top: 1px solid #e7e7e7;
 }
 
 /*End MENU PRINCIPAL*/

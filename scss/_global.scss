@@ -8,35 +8,6 @@
     text-decoration: underline;
 }
 
-/*Footer*/
-
-.socialmaps{
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    // padding: 20px;
-    margin-top: 25px;
-    // border-top: 1px solid #e7e7e7;
-    // @extend .prueba__extend;
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    justify-content: center;
-
-    // display: flex;
-    // justify-content: center;
-
-    button {
-        margin: 10px;
-        padding: 15px;
-    }
-}
-
-.down__footer{
-    justify-content: center;
-    // text-align: center;
-}
-
-
 .page-footer {
     width: 90%;
     max-width: 1000px;
@@ -45,6 +16,10 @@
     margin-top: 25px;
     border-top: 1px solid #e7e7e7;
     @extend .prueba__extend;
+}
+
+.pb-3{
+    padding-bottom: 0rem !important;
 }
 
 .prueba__extend{
@@ -101,38 +76,3 @@
 }
 
 /*end mixin*/
-
-
-/*Prueba Map*/
-$mapSocial: (
-    twitter: #55acee,
-    instagram: #c92d8f,
-    facebook: #0606ca
-    );
-
-@each $ms, $colors in $mapSocial{
-    .btn-#{$ms} {
-        background-color: $colors;
-        border: 0;
-        cursor: pointer;
-        color: #ffffff;
-    }
-}
-
-/*end Prueba Map*/
-
-/*Prueba map-get*/
-
-$style: (
-    color: #7a7a7a,
-    centrado: center,
-    valorRem: 1rem
-);
-
-.down__footer{
-    color: map-get($style, color);
-    text-align: map-get($style, centrado);
-    font-size: map-get($style, valorRem);
-}
-
-/*end prueba map-get*/
