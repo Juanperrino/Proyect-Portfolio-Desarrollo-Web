@@ -13,10 +13,6 @@ aside {
 
 /*Navbar con Boostrap*/
 
-.bg-light{
-    background-color: $WhiteColor !important;
-}
-
 .container-fluid a.navbar-brand{
     font-family: 'Benne', serif;
     font-size: 40px;
@@ -28,7 +24,11 @@ aside {
 }
 
 .navbar-light .navbar-toggler{
-    border-color: $e7;
+    border-color: #ffffff;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image:url(https://i.imgur.com/4B7IBxq.gif);
 }
 
 .navbar-toggler:focus{
@@ -53,7 +53,7 @@ aside {
     margin: auto;
     overflow: hidden;
     margin-top: 150px;
-    background-image: url(https://i.imgur.com/aUHuZnf.jpg);
+    background-image: url(https://i.imgur.com/OhaTJl1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -107,7 +107,7 @@ aside {
 }
 
 .wrapper {
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
@@ -127,8 +127,13 @@ aside {
         font-family: 'Benne', serif;
         color: #444444;
         font-size: 15px;
+        
+            &:hover{
+                color: #000000;
+            }
         }
 }
+
 
 .menuPrincipal__2{
     list-style: none;
